@@ -18,20 +18,21 @@ html {
 
 body {
   font-family: "Rubik", sans-serif;
-  background-color: #fff;
+  background-color: #f8f9fa;
   overflow-x: hidden;
 }
 
 /* HEADER STYLES */
 .header {
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
 }
 
 /* NAVBAR STYLES */
 .navbar {
+  background-color: #fff;
   width: 100%;
-  height: 25%;
+  height: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +88,7 @@ body {
 /* HERO STYLES */
 .hero {
   width: 100%;
-  height: 75%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,5 +161,21 @@ body {
 /* INTEGRANTES STYLES */
 .integrantes {
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
+}
+
+.lista-integrantes {
+  color: #868e96;
+  font-size: 1.8rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.lista-integrantes li {
+  list-style-type: none;
+  font-weight: 200;
 }
