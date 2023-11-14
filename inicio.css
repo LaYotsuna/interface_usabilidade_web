@@ -22,10 +22,6 @@ body {
   overflow-x: hidden;
 }
 
-:root {
-  --white: #fff;
-}
-
 /* HEADER STYLES */
 .header {
   width: 100vw;
@@ -41,7 +37,7 @@ body {
   align-items: center;
 }
 .logo {
-  width: 25%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -62,8 +58,27 @@ body {
 }
 
 .menu-nav {
-  width: 75%;
+  width: 60%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  padding-left: 20%;
+}
+
+.menu-nav a {
+  color: #5f3dc4;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.menu-nav a:hover {
+  color: #845ef7;
+}
+
+.menu-nav a:active {
+  color: #5f3dc4;
 }
 
 /* HERO STYLES */
