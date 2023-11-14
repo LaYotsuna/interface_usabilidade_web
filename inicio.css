@@ -53,6 +53,14 @@ body {
   object-fit: cover;
 }
 
+.logo h1 {
+  font-size: 3rem;
+  background: #7048e8;
+  background: linear-gradient(to right, #7048e8 0%, #b197fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu-nav {
   width: 75%;
   height: 100%;
