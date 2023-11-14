@@ -84,7 +84,7 @@ body {
 /* HERO STYLES */
 .hero {
   width: 100%;
-  height: 85%;
+  height: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,12 @@ body {
 .hero-img {
   width: 50%;
   height: 100%;
-  background-color: #ff8787;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* INTEGRANTES STYLES */
