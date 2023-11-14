@@ -179,3 +179,7 @@ body {
   list-style-type: none;
   font-weight: 200;
 }
+
+.lista-integrantes li:hover {
+  color: #845ef7;
+}
