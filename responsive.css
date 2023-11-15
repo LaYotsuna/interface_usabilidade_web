@@ -63,7 +63,7 @@
 
   .lista-integrantes {
     font-size: 0.8rem;
-    gap: 0.8rem;
+    gap: 0.4rem;
   }
 
   .lista-integrantes li {
@@ -78,7 +78,6 @@
     height: 125vh;
     flex-direction: column;
     gap: 1.6rem;
-    margin-top: -10%;
   }
 
   .interface-img,
@@ -86,14 +85,14 @@
   .responsividade-img {
     height: 50%;
     width: 85%;
-    margin-bottom: -100%;
+    margin-bottom: -90%;
   }
 
   .interface-texto,
   .usabilidade-texto,
   .responsividade-texto {
     width: 85%;
-    margin-bottom: -85%;
+    margin-bottom: -70%;
   }
 
   .interface-texto h3,
@@ -119,6 +118,7 @@
   }
 
   .slider {
+    margin-top: 5%;
     margin-bottom: 10%;
   }
 
@@ -154,7 +154,7 @@
 
   .cores {
     height: 70vh;
-    margin-top: 75%;
+    margin-top: 80%;
     margin-bottom: 20%;
     flex-direction: column;
   }
@@ -170,11 +170,11 @@
   }
 
   .cores-texto h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .cores-texto p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .cores-cards {
@@ -525,7 +525,7 @@
   }
 }
 
-@media screen and (min-width: 1155px) and (max-width: 1195px) and (orientation: landscape) {
+@media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
   .menu-nav {
     padding-left: 10%;
   }
@@ -536,8 +536,20 @@
 
   .interface {
     height: 27.5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 7.5%;
+  }
+
+  .interface-texto h3,
+  .usabilidade-texto h3,
+  .responsividade-texto h3 {
+    font-size: 2.4rem;
+  }
+
+  .interface-texto p,
+  .usabilidade-texto p,
+  .responsividade-texto p {
+    font-size: 1.6rem;
   }
 
   .navegacao {
@@ -555,7 +567,7 @@
 
   .cores {
     height: 35%;
-    margin-top: 15%;
+    margin-top: 20%;
   }
 
   .cores-texto {
@@ -587,7 +599,6 @@
 }
 
 /* SOME LAPTOPS */
-
 @media screen and (min-width: 1196px) and (max-width: 1280px) {
   .menu-nav {
     padding-left: 17.5%;
