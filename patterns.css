@@ -38,11 +38,11 @@ Spacing system (px)
 */
 
 ::selection {
-  background-color: #9775fa;
+  background-color: #7950f2;
   color: white;
 }
 
 ::-moz-selection {
-  background-color: #9775fa;
+  background-color: #7950f2;
   color: white;
 }
