@@ -39,12 +39,13 @@
   }
 
   .main {
-    height: 200vh;
+    height: 175vh;
   }
 
   .interface {
     height: 30%;
     gap: 4.8rem;
+    margin-top: 5%;
   }
 
   .interface-img,
@@ -71,6 +72,10 @@
     font-size: 1.6rem;
   }
 
+  .slider {
+    margin-bottom: 10%;
+  }
+
   .desktop {
     display: none;
   }
@@ -81,7 +86,7 @@
 
   .navegacao {
     width: 95%;
-    height: 20%;
+    height: 30%;
   }
 
   .navegacao-card.primeiro {
@@ -103,16 +108,25 @@
   }
 
   .cores {
-    height: 35%;
-    margin-top: 20%;
+    height: 25%;
+    margin-top: 15%;
+    margin-bottom: 5%;
   }
 
   .cores-texto {
     gap: 1.6rem;
   }
 
+  .cores-texto h3 {
+    font-size: 2.4rem;
+  }
+
+  .cores-texto p {
+    font-size: 1.6rem;
+  }
+
   .cores-cards {
-    height: 50%;
+    height: 55%;
     grid-row-gap: 0.2rem;
     grid-column-gap: 0.2rem;
   }
@@ -123,7 +137,7 @@
   }
 
   .footer {
-    height: 7.5%;
+    height: 5%;
   }
 }
 
