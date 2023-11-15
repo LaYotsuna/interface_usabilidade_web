@@ -58,12 +58,12 @@
   }
 
   .integrantes {
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
   }
 
   .lista-integrantes {
-    font-size: 0.8rem;
-    gap: 0.4rem;
+    font-size: 1.2rem;
+    gap: 0.8rem;
   }
 
   .lista-integrantes li {
