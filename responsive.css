@@ -79,6 +79,7 @@
     height: 125vh;
     flex-direction: column;
     gap: 1.6rem;
+    margin-top: -10%;
   }
 
   .interface-img,

@@ -33,7 +33,10 @@ const slides = {
 /* Setas do slider */
 const setaAnterior = document.querySelector(".icone.anterior");
 const setaProximo = document.querySelector(".icone.proximo");
+const setaAnteriorMob = document.querySelector(".icone.anterior.mobile");
+const setaProximoMob = document.querySelector(".icone.proximo.mobile");
 const setas = [setaAnterior, setaProximo];
+const setasMob = [setaAnteriorMob, setaProximoMob];
 
 function selecionarSeta() {
   setas.forEach((seta) => {
@@ -42,6 +45,20 @@ function selecionarSeta() {
         slideCounter -= 1;
         voltarSlide(slideCounter);
       } else if (seta === setaProximo && slideCounter < 3) {
+        slideCounter += 1;
+        passarSlide(slideCounter);
+      }
+    });
+  });
+}
+
+function selecionarSetaMob() {
+  setasMob.forEach((seta) => {
+    seta.addEventListener("click", () => {
+      if (seta === setaAnteriorMob && slideCounter > 1) {
+        slideCounter -= 1;
+        voltarSlide(slideCounter);
+      } else if (seta === setaProximoMob && slideCounter < 3) {
         slideCounter += 1;
         passarSlide(slideCounter);
       }
@@ -106,4 +123,5 @@ function mostrarSlide(num) {
 
 passarSlide(1);
 selecionarSeta();
+selecionarSetaMob();
 sliderDots();
