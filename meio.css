@@ -139,6 +139,10 @@
   margin-right: 65%;
 }
 
+.mobile {
+  display: none;
+}
+
 /* SLIDER */
 .slider {
   margin: auto;

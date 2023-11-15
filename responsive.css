@@ -9,24 +9,97 @@
 /* SOME SMALLER TABLETS */
 
 @media screen and (min-width: 768px) and (max-width: 900px) and (orientation: portrait) {
-}
+  .logo h1 {
+    font-size: 2rem;
+  }
 
-@media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
   .menu-nav {
-    padding-left: 10%;
+    padding-left: 5%;
+  }
+
+  .conteudo {
+    width: 75%;
+  }
+
+  .conteudo h2 {
+    font-size: 3rem;
+  }
+
+  .conteudo p {
+    font-size: 1.6rem;
+  }
+
+  .conteudo button {
+    font-size: 1.4rem;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .lista-integrantes {
+    font-size: 1.6rem;
   }
 
   .main {
-    height: 275vh;
+    height: 200vh;
   }
 
   .interface {
-    height: 27.5%;
+    height: 30%;
+    gap: 4.8rem;
+  }
+
+  .interface-img,
+  .usabilidade-img,
+  .responsividade-img {
+    width: 40%;
+  }
+
+  .interface-texto,
+  .usabilidade-texto,
+  .responsividade-texto {
+    width: 40%;
+  }
+
+  .interface-texto h3,
+  .usabilidade-texto h3,
+  .responsividade-texto h3 {
+    font-size: 2.4rem;
+  }
+
+  .interface-texto p,
+  .usabilidade-texto p,
+  .responsividade-texto p {
+    font-size: 1.6rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 
   .navegacao {
-    width: 90%;
-    height: 25%;
+    width: 95%;
+    height: 20%;
+  }
+
+  .navegacao-card.primeiro {
+    display: none;
+  }
+
+  .navegacao-card.segundo {
+    grid-column: 3 / 5;
+  }
+
+  .navegacao-card.titulo h3,
+  .navegacao-card.segundo h3 {
+    font-size: 2.4rem;
+  }
+
+  .navegacao-card.titulo p,
+  .navegacao-card.segundo p {
+    font-size: 1.6rem;
   }
 
   .cores {
@@ -40,6 +113,65 @@
 
   .cores-cards {
     height: 50%;
+    grid-row-gap: 0.2rem;
+    grid-column-gap: 0.2rem;
+  }
+
+  .cores-card {
+    width: 70%;
+    height: 70%;
+  }
+
+  .footer {
+    height: 7.5%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
+  .menu-nav {
+    padding-left: 10%;
+  }
+
+  .main {
+    height: 200vh;
+  }
+
+  .interface {
+    height: 27.5%;
+  }
+
+  .navegacao {
+    width: 90%;
+    height: 30%;
+  }
+
+  .navegacao-card.primeiro {
+    display: none;
+  }
+
+  .navegacao-card.segundo {
+    grid-column: 3 / 5;
+  }
+
+  .cores {
+    height: 35%;
+    margin-top: 15%;
+  }
+
+  .cores-texto {
+    gap: 1.6rem;
+  }
+
+  .cores-texto h3 {
+    font-size: 2.4rem;
+  }
+
+  .cores-texto p {
+    font-size: 1.6rem;
+  }
+
+  .cores-cards {
+    height: 60%;
     grid-row-gap: 0.2rem;
     grid-column-gap: 0.2rem;
   }
