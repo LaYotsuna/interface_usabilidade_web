@@ -17,4 +17,40 @@
 /* SOME LAPTOPS */
 
 @media screen and (min-width: 1196px) and (max-width: 1280px) {
+  .main {
+    height: 275vh;
+  }
+
+  .interface {
+    height: 30%;
+  }
+
+  .navegacao {
+    width: 90%;
+    height: 25%;
+  }
+
+  .cores {
+    height: 30%;
+    margin-top: 17.5%;
+  }
+
+  .cores-texto {
+    gap: 1.6rem;
+  }
+
+  .cores-cards {
+    height: 50%;
+    grid-row-gap: 0.2rem;
+    grid-column-gap: 0.2rem;
+  }
+
+  .cores-card {
+    width: 70%;
+    height: 70%;
+  }
+
+  .footer {
+    height: 5%;
+  }
 }
