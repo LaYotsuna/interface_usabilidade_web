@@ -4,6 +4,24 @@
 /* ICONS */
 @import url("https://css.gg/css");
 
+/* GENERAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
 /* MAIN STYLES */
 .main {
   width: 100vw;

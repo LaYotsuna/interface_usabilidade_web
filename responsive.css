@@ -200,7 +200,7 @@
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
   .logo {
-    width: 65%;
+    width: 30%;
   }
 
   .logo h1 {
@@ -208,7 +208,7 @@
   }
 
   .menu-nav {
-    padding-left: 0;
+    width: 70%;
   }
 
   .menu-nav a {
@@ -216,22 +216,21 @@
   }
 
   .hero-conteudo {
-    width: 50%;
-    height: 100%;
-    padding-top: 45%;
-    padding-bottom: 25%;
+    width: 50vw;
+    height: 100vh;
   }
 
   .conteudo {
     width: 75%;
+    gap: 1.6rem;
   }
 
   .conteudo h2 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
 
   .conteudo p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .conteudo button {
@@ -240,12 +239,14 @@
   }
 
   .hero-img {
-    width: 50%;
-    height: 182.75%;
+    width: 50vw;
+    height: 100vh;
   }
 
   .integrantes {
-    margin-top: 17.5%;
+    height: fit-content;
+    margin-top: 12.8rem;
+    margin-bottom: 3.2rem;
   }
 
   .lista-integrantes {
@@ -258,25 +259,27 @@
   }
 
   .main {
-    height: 200vh;
+    height: 230vh;
   }
 
   .interface {
-    height: 30%;
+    height: 75vh;
+    width: 85vw;
     gap: 2.4rem;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
   }
 
-  .icone.anterior {
-    margin-right: 2.5%;
+  .slide {
+    width: 0.8em;
+    height: 0.8rem;
   }
 
   .interface-img,
   .usabilidade-img,
   .responsividade-img {
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: 85%;
   }
 
   .interface-texto,
@@ -289,7 +292,7 @@
   .interface-texto h3,
   .usabilidade-texto h3,
   .responsividade-texto h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .interface-texto p,
@@ -299,8 +302,8 @@
   }
 
   .navegacao {
-    width: 90%;
-    height: 50%;
+    width: 85vw;
+    height: 75vh;
     display: flex;
   }
 
@@ -308,9 +311,10 @@
   .navegacao-card.primeiro {
     display: none;
   }
+
   .navegacao-card.titulo h3,
   .navegacao-card.segundo h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .navegacao-card.titulo p,
@@ -319,17 +323,16 @@
   }
 
   .cores {
-    height: 35%;
-    margin-top: 10%;
-    margin-bottom: 15%;
+    height: 75vh;
   }
 
   .cores-texto {
+    width: 40%;
     gap: 1.6rem;
   }
 
   .cores-texto h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .cores-texto p {
@@ -337,9 +340,8 @@
   }
 
   .cores-cards {
+    width: 40%;
     height: 100%;
-    grid-row-gap: 0.2rem;
-    grid-column-gap: 0.2rem;
   }
 
   .cores-card {
@@ -362,7 +364,7 @@
   }
 
   .footer {
-    height: 7.5%;
+    height: 10vh;
   }
 }
 
