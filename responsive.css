@@ -1,7 +1,7 @@
 /* SOME SMARTPHONES */
 @media screen and (min-width: 320px) and (max-width: 650px) and (orientation: portrait) {
   .logo {
-    width: 65%;
+    width: 70%;
   }
 
   .logo h1 {
@@ -9,7 +9,7 @@
   }
 
   .menu-nav-mobile {
-    width: 35%;
+    width: 30%;
     padding-left: 6.4rem;
   }
 
@@ -62,7 +62,7 @@
   }
 
   .lista-integrantes {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     gap: 0.8rem;
   }
 

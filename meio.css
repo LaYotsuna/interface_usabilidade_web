@@ -7,88 +7,28 @@
 /* MAIN STYLES */
 .main {
   width: 100vw;
-  height: 250vh;
+  height: 230vh;
 }
 
 /* INTERFACE STYLES */
 .interface {
-  width: 100%;
-  height: 30%;
+  width: 100vw;
+  height: 75vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 6.4rem;
 }
 
-.interface-img {
-  width: 45%;
-  height: 75%;
-}
-
-.interface-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 2.4rem;
-}
-
-.interface-texto {
-  width: 35%;
-  height: 100%;
-  color: #495057;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.4rem;
-}
-
-.interface-texto h3 {
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.interface-texto p {
-  font-size: 1.8rem;
-}
-
-.usabilidade-img {
-  width: 45%;
-  height: 75%;
-}
-
-.usabilidade-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 2.4rem;
-}
-
-.usabilidade-texto {
-  width: 35%;
-  height: 100%;
-  color: #495057;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.4rem;
-}
-
-.usabilidade-texto h3 {
-  font-size: 3rem;
-  font-weight: 600;
-}
-
-.usabilidade-texto p {
-  font-size: 1.8rem;
-}
-
+.interface-img,
+.usabilidade-img,
 .responsividade-img {
-  width: 45%;
+  width: 40%;
   height: 75%;
 }
 
+.interface-img img,
+.usabilidade-img img,
 .responsividade-img img {
   width: 100%;
   height: 100%;
@@ -96,6 +36,8 @@
   border-radius: 2.4rem;
 }
 
+.interface-texto,
+.usabilidade-texto,
 .responsividade-texto {
   width: 35%;
   height: 100%;
@@ -107,19 +49,23 @@
   gap: 2.4rem;
 }
 
+.interface-texto h3,
+.usabilidade-texto h3,
 .responsividade-texto h3 {
   font-size: 3rem;
   font-weight: 600;
 }
 
+.interface-texto p,
+.usabilidade-texto p,
 .responsividade-texto p {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .icone.anterior,
 .icone.proximo {
-  width: 5%;
-  height: 5%;
+  width: 3.2rem;
+  height: 3.2rem;
   cursor: pointer;
 }
 
@@ -128,7 +74,6 @@
   background-color: #4dabf7;
   margin: auto;
   --ggs: 1.75;
-  margin-left: 65%;
 }
 
 .icone.proximo .gg-arrow-right-r {
@@ -136,22 +81,17 @@
   background-color: #4dabf7;
   margin: auto;
   --ggs: 1.75;
-  margin-right: 65%;
-}
-
-.mobile {
-  display: none;
 }
 
 /* SLIDER */
 .slider {
   margin: auto;
   width: fit-content;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2.4rem;
+  margin-bottom: 9.6rem;
 }
 
 .slide {
@@ -166,6 +106,10 @@
   background-color: #845ef7;
 }
 
+.mobile {
+  display: none;
+}
+
 .oculto {
   display: none !important;
 }
@@ -173,16 +117,14 @@
 /* NAVEGAÇÃO STYLES */
 .navegacao {
   margin: auto;
-  width: 85%;
-  height: 30%;
+  width: 85vw;
+  height: 75vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-row-gap: 3.2rem;
   grid-column-gap: 3.2rem;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-top: 3%;
+  margin-bottom: 9.6rem;
 }
 
 .navegacao-card.imagem {
@@ -207,13 +149,16 @@
   justify-content: center;
   align-items: center;
   gap: 2.4rem;
+  background-color: #9775fa;
 }
 
-.navegacao-card.titulo h3 {
+.navegacao-card.titulo h3,
+.navegacao-card.segundo h3 {
   font-size: 3rem;
 }
 
-.navegacao-card.titulo p {
+.navegacao-card.titulo p,
+.navegacao-card.segundo p {
   font-size: 1.8rem;
 }
 
@@ -242,35 +187,30 @@
   background-color: #4dabf7;
 }
 
-.navegacao-card.segundo h3 {
-  font-size: 3rem;
-}
-
-.navegacao-card.segundo p {
-  font-size: 1.8rem;
-}
-
 .navegacao-card {
   color: #f8f9fa !important;
-  background-color: #9775fa;
   border-radius: 2.4rem;
   padding: 2.4rem;
 }
 
 /* CORES STYLES */
 .cores {
-  width: 100%;
-  height: 30%;
+  width: 100vw;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4.8rem;
-  margin-top: 3%;
+  margin-bottom: 9.6rem;
 }
 
-.cores-cards,
+.cores-cards {
+  width: 50%;
+  height: 80%;
+}
+
 .cores-texto {
-  width: 40%;
+  width: 30%;
   height: 80%;
 }
 
@@ -280,7 +220,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4.8rem;
+  gap: 3.2rem;
 }
 
 .cores-texto h3 {
@@ -288,7 +228,7 @@
 }
 
 .cores-texto p {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .cores-cards {
@@ -296,26 +236,24 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-row-gap: 1.2rem;
-  grid-column-gap: 2.4rem;
-  align-items: center;
-  justify-items: center;
+  grid-column-gap: 1.2rem;
 }
 
 .cores-card {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 5px 7.5px -1.5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 7.5px -1.5px rgba(0, 0, 0, 0.15);
   border-radius: 1.2rem;
 }
 
 .cores-card:hover {
-  scale: 1.05;
-  transition: all 0.2s;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
+  scale: 1.1;
+  transition: all 0.3s;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.15);
 }
 
 .cor_1.cor {
@@ -345,7 +283,7 @@
 .cor_4.cor {
   width: 100%;
   height: 100%;
-  background-color: #51cf66; /* FONTS */
+  background-color: #51cf66;
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -353,7 +291,7 @@
 .cor_5.cor {
   width: 100%;
   height: 100%;
-  background-color: #37b24d; /* FONTS */
+  background-color: #37b24d;
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -361,7 +299,7 @@
 .cor_6.cor {
   width: 100%;
   height: 100%;
-  background-color: #2b8a3e; /* FONTS */
+  background-color: #2b8a3e;
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -403,7 +341,7 @@
   font-size: 1.2rem;
   font-weight: 500;
   width: 100%;
-  height: 20%;
+  height: 25%;
   background-color: #dee2e6;
   display: flex;
   justify-content: center;
@@ -417,7 +355,7 @@
   color: #495057;
   font-size: 1.4rem;
   width: 100%;
-  height: 5%;
+  height: 5vh;
   background-color: #e9ecef;
   display: flex;
   justify-content: center;
