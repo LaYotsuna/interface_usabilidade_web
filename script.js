@@ -30,6 +30,7 @@ const slides = {
   ],
 };
 
+/* Setas do slider */
 const setaAnterior = document.querySelector(".icone.anterior");
 const setaProximo = document.querySelector(".icone.proximo");
 const setas = [setaAnterior, setaProximo];
@@ -37,84 +38,72 @@ const setas = [setaAnterior, setaProximo];
 function selecionarSeta() {
   setas.forEach((seta) => {
     seta.addEventListener("click", () => {
-      if (seta === setas[0] && slideCounter === 0) {
-        return null;
-      } else if (
-        (seta === setas[0] && slideCounter === 1) ||
-        (seta === setas[0] && slideCounter === 2)
-      ) {
+      if (seta === setaAnterior && slideCounter > 1) {
         slideCounter -= 1;
         voltarSlide(slideCounter);
-      } else if (
-        (seta === setas[1] && slideCounter === 0) ||
-        (seta === setas[1] && slideCounter === 1)
-      ) {
+      } else if (seta === setaProximo && slideCounter < 3) {
         slideCounter += 1;
         passarSlide(slideCounter);
-      } else {
-        return null;
       }
     });
   });
 }
 
+/* Dots do slider */
 const sliders = document.querySelectorAll(".slide");
 
 function sliderDots() {
-  sliders.forEach((slide) => {
-    slide.addEventListener("click", () => {
-      if (slide === sliders[0]) {
-        alert("Você pressionou o slider 1");
-      } else if (slide === sliders[1]) {
-        alert("Você pressionou o slider 2");
-      } else {
-        alert("Você pressionou o slider 3");
-      }
+  sliders.forEach((slider, index) => {
+    slider.addEventListener("click", () => {
+      slideCounter = index + 1; // ajuste para corresponder à contagem iniciando de 1
+      mostrarSlide(slideCounter);
     });
   });
 }
 
+/* Funções de voltar e passar o slide */
 function voltarSlide(num) {
-  if (num === 1) {
-    slides.slide1[0].classList.remove("oculto");
-    slides.slide1[1].classList.remove("oculto");
-    slides.slide1[0].classList.add("oculto");
-    slides.slide1[1].classList.add("oculto");
-    slides.slide2[0].classList.add("oculto");
-    slides.slide2[1].classList.add("oculto");
-  } else if (num === 2) {
-    slides.slide1[0].classList.add("oculto");
-    slides.slide1[1].classList.add("oculto");
-    slides.slide2[0].classList.remove("oculto");
-    slides.slide2[1].classList.remove("oculto");
-    slides.slide3[0].classList.add("oculto");
-    slides.slide3[1].classList.add("oculto");
-  }
+  Object.values(slides).forEach((slide) => {
+    slide[0].classList.add("oculto");
+    slide[1].classList.add("oculto");
+  });
+  sliders.forEach((slider) => {
+    slider.classList.remove("ativado");
+  });
+
+  slides["slide" + num][0].classList.remove("oculto");
+  slides["slide" + num][1].classList.remove("oculto");
+  sliders[num - 1].classList.add("ativado");
 }
 
 function passarSlide(num) {
-  if (num === 0) {
-    slides.slide2[0].classList.add("oculto");
-    slides.slide2[1].classList.add("oculto");
-    slides.slide3[0].classList.add("oculto");
-    slides.slide3[1].classList.add("oculto");
-  } else if (num === 1) {
-    slides.slide1[0].classList.add("oculto");
-    slides.slide1[1].classList.add("oculto");
-    slides.slide2[0].classList.remove("oculto");
-    slides.slide2[1].classList.remove("oculto");
-    slides.slide3[0].classList.add("oculto");
-    slides.slide3[1].classList.add("oculto");
-  } else if (num === 2) {
-    slides.slide1[0].classList.add("oculto");
-    slides.slide1[1].classList.add("oculto");
-    slides.slide2[0].classList.add("oculto");
-    slides.slide2[1].classList.add("oculto");
-    slides.slide3[0].classList.remove("oculto");
-    slides.slide3[1].classList.remove("oculto");
-  }
+  Object.values(slides).forEach((slide) => {
+    slide[0].classList.add("oculto");
+    slide[1].classList.add("oculto");
+  });
+  sliders.forEach((slider) => {
+    slider.classList.remove("ativado");
+  });
+
+  slides["slide" + num][0].classList.remove("oculto");
+  slides["slide" + num][1].classList.remove("oculto");
+  sliders[num - 1].classList.add("ativado");
 }
 
-passarSlide(slideCounter);
+function mostrarSlide(num) {
+  Object.values(slides).forEach((slide) => {
+    slide[0].classList.add("oculto");
+    slide[1].classList.add("oculto");
+  });
+  sliders.forEach((slider) => {
+    slider.classList.remove("ativado");
+  });
+
+  slides["slide" + num][0].classList.remove("oculto");
+  slides["slide" + num][1].classList.remove("oculto");
+  sliders[num - 1].classList.add("ativado");
+}
+
+passarSlide(1);
 selecionarSeta();
 sliderDots();
