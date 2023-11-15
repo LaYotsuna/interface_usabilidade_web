@@ -369,7 +369,7 @@
 }
 
 /* SOME TABLETS */
-@media screen and (min-width: 750px) and (max-width: 1150px) and (orientation: portrait) {
+@media screen and (min-width: 700px) and (max-width: 1150px) and (orientation: portrait) {
   .logo {
     width: 50%;
   }
@@ -383,6 +383,7 @@
   }
 
   .menu-nav {
+    width: 50%;
     padding-left: 0;
   }
 
@@ -391,7 +392,7 @@
   }
 
   .conteudo h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .conteudo p {
@@ -404,28 +405,28 @@
   }
 
   .lista-integrantes {
+    height: fit-content;
     font-size: 1.6rem;
+    margin-top: 3.2rem;
   }
 
   .main {
-    height: 175vh;
+    height: 200vh;
   }
 
   .interface {
-    height: 30%;
-    gap: 4.8rem;
-    margin-top: 5%;
-  }
-
-  .icone.anterior {
-    margin-right: 2.5%;
-    margin-left: 2.5%;
+    height: 65vh;
+    width: 85vw;
+    gap: 3.2rem;
+    margin: 0 auto;
+    margin-top: -6.4rem;
   }
 
   .interface-img,
   .usabilidade-img,
   .responsividade-img {
     width: 50%;
+    height: 70%;
   }
 
   .interface-texto,
@@ -447,12 +448,12 @@
   }
 
   .slider {
-    margin-bottom: 10%;
+    margin-top: -6.4rem;
   }
 
   .navegacao {
-    width: 95%;
-    height: 30%;
+    width: 90vw;
+    height: 65vh;
   }
 
   .navegacao-card.primeiro {
@@ -474,12 +475,14 @@
   }
 
   .cores {
-    height: 25%;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    height: 65vh;
+    width: 100vw;
+    margin-top: -9.6rem;
   }
 
   .cores-texto {
+    width: 40%;
+    height: 100%;
     gap: 1.6rem;
   }
 
@@ -492,14 +495,14 @@
   }
 
   .cores-cards {
-    height: 55%;
-    grid-row-gap: 0.2rem;
-    grid-column-gap: 0.2rem;
+    width: 40%;
+    height: 50%;
+    align-items: center;
   }
 
   .cores-card {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 60%;
   }
 
   .cor_1.descricao,
@@ -515,13 +518,34 @@
   }
 
   .footer {
-    height: 5%;
+    margin-top: -9.6rem;
+    height: 5vh;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
   .menu-nav {
-    padding-left: 10%;
+    padding-left: 3.2rem;
+  }
+
+  .main {
+    height: 200vh;
+  }
+
+  .hero {
+    margin-top: -4.5rem;
+  }
+
+  .conteudo h2 {
+    font-size: 2.4rem;
+  }
+
+  .conteudo p {
+    font-size: 1.8rem;
+  }
+
+  .integrantes {
+    margin-top: 2.4rem;
   }
 
   .main {
@@ -529,9 +553,9 @@
   }
 
   .interface {
-    height: 27.5%;
-    margin-top: 10%;
-    margin-bottom: 7.5%;
+    width: 95vw;
+    height: 65vh;
+    margin: auto;
   }
 
   .interface-texto h3,
@@ -547,8 +571,8 @@
   }
 
   .navegacao {
-    width: 90%;
-    height: 30%;
+    width: 90vw;
+    height: 65vh;
   }
 
   .navegacao-card.primeiro {
@@ -560,11 +584,12 @@
   }
 
   .cores {
-    height: 35%;
-    margin-top: 20%;
+    height: 65vh;
+    padding-top: 9.6rem;
   }
 
   .cores-texto {
+    height: 100%;
     gap: 1.6rem;
   }
 
@@ -578,17 +603,17 @@
 
   .cores-cards {
     height: 60%;
-    grid-row-gap: 0.2rem;
-    grid-column-gap: 0.2rem;
+    grid-row-gap: 1.2rem;
+    grid-column-gap: 1.2rem;
   }
 
   .cores-card {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 100%;
   }
 
   .footer {
-    height: 7.5%;
+    height: 5vh;
   }
 }
 
