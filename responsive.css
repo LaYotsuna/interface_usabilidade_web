@@ -1,6 +1,5 @@
 /* SOME SMARTPHONES */
-
-@media screen and (max-width: 950px) and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 600px) and (orientation: portrait) {
   .logo {
     width: 65%;
   }
@@ -155,8 +154,8 @@
 
   .cores {
     height: 70vh;
-    margin-top: 60%;
-    margin-bottom: 15%;
+    margin-top: 75%;
+    margin-bottom: 20%;
     flex-direction: column;
   }
 
@@ -208,13 +207,181 @@
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
+  .logo {
+    width: 65%;
+  }
+
+  .logo h1 {
+    font-size: 1.6rem;
+  }
+
+  .menu-nav {
+    padding-left: 0;
+  }
+
+  .menu-nav a {
+    font-size: 1.4rem;
+  }
+
+  .hero-conteudo {
+    width: 50%;
+    height: 100%;
+    padding-top: 45%;
+    padding-bottom: 25%;
+  }
+
+  .conteudo {
+    width: 75%;
+  }
+
+  .conteudo h2 {
+    font-size: 2.4rem;
+  }
+
+  .conteudo p {
+    font-size: 1.6rem;
+  }
+
+  .conteudo button {
+    font-size: 1.4rem;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .hero-img {
+    width: 50%;
+    height: 182.75%;
+  }
+
+  .integrantes {
+    margin-top: 17.5%;
+  }
+
+  .lista-integrantes {
+    font-size: 1.4rem;
+    gap: 0.8rem;
+  }
+
+  .lista-integrantes li {
+    font-weight: 400;
+  }
+
+  .main {
+    height: 200vh;
+  }
+
+  .interface {
+    height: 30%;
+    gap: 2.4rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .icone.anterior {
+    margin-right: 2.5%;
+  }
+
+  .interface-img,
+  .usabilidade-img,
+  .responsividade-img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .interface-texto,
+  .usabilidade-texto,
+  .responsividade-texto {
+    width: 100%;
+    gap: 1.2rem;
+  }
+
+  .interface-texto h3,
+  .usabilidade-texto h3,
+  .responsividade-texto h3 {
+    font-size: 2rem;
+  }
+
+  .interface-texto p,
+  .usabilidade-texto p,
+  .responsividade-texto p {
+    font-size: 1.2rem;
+  }
+
+  .navegacao {
+    width: 90%;
+    height: 50%;
+    display: flex;
+  }
+
+  .navegacao-card.imagem,
+  .navegacao-card.primeiro {
+    display: none;
+  }
+  .navegacao-card.titulo h3,
+  .navegacao-card.segundo h3 {
+    font-size: 2rem;
+  }
+
+  .navegacao-card.titulo p,
+  .navegacao-card.segundo p {
+    font-size: 1.4rem;
+  }
+
+  .cores {
+    height: 35%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  .cores-texto {
+    gap: 1.6rem;
+  }
+
+  .cores-texto h3 {
+    font-size: 2rem;
+  }
+
+  .cores-texto p {
+    font-size: 1.4rem;
+  }
+
+  .cores-cards {
+    height: 100%;
+    grid-row-gap: 0.2rem;
+    grid-column-gap: 0.2rem;
+  }
+
+  .cores-card {
+    width: 70%;
+    height: 70%;
+  }
+
+  .cor_1.descricao,
+  .cor_2.descricao,
+  .cor_3.descricao,
+  .cor_4.descricao,
+  .cor_5.descricao,
+  .cor_6.descricao,
+  .cor_7.descricao,
+  .cor_8.descricao,
+  .cor_9.descricao {
+    font-size: 0.8rem;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .footer {
+    height: 7.5%;
+  }
 }
 
-/* SOME SMALLER TABLETS */
+/* SOME TABLETS */
+@media screen and (min-width: 750px) and (max-width: 1150px) and (orientation: portrait) {
+  .logo {
+    width: 50%;
+  }
 
-@media screen and (min-width: 768px) and (max-width: 900px) and (orientation: portrait) {
   .logo h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .menu-nav a {
@@ -222,7 +389,7 @@
   }
 
   .menu-nav {
-    padding-left: 5%;
+    padding-left: 0;
   }
 
   .conteudo {
@@ -256,16 +423,21 @@
     margin-top: 5%;
   }
 
+  .icone.anterior {
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+  }
+
   .interface-img,
   .usabilidade-img,
   .responsividade-img {
-    width: 40%;
+    width: 50%;
   }
 
   .interface-texto,
   .usabilidade-texto,
   .responsividade-texto {
-    width: 40%;
+    width: 50%;
   }
 
   .interface-texto h3,
@@ -282,14 +454,6 @@
 
   .slider {
     margin-bottom: 10%;
-  }
-
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
   }
 
   .navegacao {
@@ -361,7 +525,7 @@
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
+@media screen and (min-width: 1155px) and (max-width: 1195px) and (orientation: landscape) {
   .menu-nav {
     padding-left: 10%;
   }
@@ -372,6 +536,8 @@
 
   .interface {
     height: 27.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   .navegacao {
