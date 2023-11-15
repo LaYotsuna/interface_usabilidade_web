@@ -121,7 +121,24 @@ function mostrarSlide(num) {
   sliders[num - 1].classList.add("ativado");
 }
 
+function toggleMobileMenu() {
+  var menu = document.getElementById("menuMobileOpcoes");
+  if (menu.classList.contains("show")) {
+    menu.classList.remove("show");
+  } else {
+    menu.classList.add("show");
+  }
+}
+
+function obsMenuMob() {
+  const menu = document.querySelector(".menu-nav-mobile.mobile");
+  menu.addEventListener("click", () => {
+    toggleMobileMenu();
+  });
+}
+
 passarSlide(1);
 selecionarSeta();
 selecionarSetaMob();
 sliderDots();
+obsMenuMob();
