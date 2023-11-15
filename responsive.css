@@ -58,30 +58,42 @@
     width: 100%;
   }
 
+  .integrantes {
+    margin-top: 30%;
+  }
+
   .lista-integrantes {
-    font-size: 1.6rem;
+    font-size: 0.8rem;
+    gap: 0.8rem;
+  }
+
+  .lista-integrantes li {
+    font-weight: 400;
   }
 
   .main {
-    height: 175vh;
+    height: 250vh;
   }
 
   .interface {
-    height: 30%;
-    gap: 4.8rem;
-    margin-top: 5%;
+    height: 125vh;
+    flex-direction: column;
+    gap: 1.6rem;
   }
 
   .interface-img,
   .usabilidade-img,
   .responsividade-img {
-    width: 40%;
+    height: 50%;
+    width: 85%;
+    margin-bottom: -100%;
   }
 
   .interface-texto,
   .usabilidade-texto,
   .responsividade-texto {
-    width: 40%;
+    width: 85%;
+    margin-bottom: -85%;
   }
 
   .interface-texto h3,
@@ -96,8 +108,23 @@
     font-size: 1.6rem;
   }
 
+  .setas-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.4rem;
+    margin-left: -4%;
+    margin-top: -15%;
+  }
+
   .slider {
     margin-bottom: 10%;
+  }
+
+  .slide {
+    width: 1.6rem;
+    height: 1.6rem;
   }
 
   .desktop {
@@ -105,18 +132,16 @@
   }
 
   .navegacao {
-    width: 95%;
-    height: 30%;
+    width: 85%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
   }
 
+  .navegacao-card.imagem,
   .navegacao-card.primeiro {
     display: none;
   }
-
-  .navegacao-card.segundo {
-    grid-column: 3 / 5;
-  }
-
   .navegacao-card.titulo h3,
   .navegacao-card.segundo h3 {
     font-size: 2.4rem;
@@ -128,9 +153,9 @@
   }
 
   .cores {
-    height: 25%;
-    margin-top: 15%;
-    margin-bottom: 5%;
+    height: 70vh;
+    margin-top: 70%;
+    margin-bottom: 15%;
   }
 
   .cores-texto {
@@ -169,7 +194,7 @@
   }
 
   .footer {
-    height: 5%;
+    height: 5vh;
   }
 }
 
