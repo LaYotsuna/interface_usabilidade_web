@@ -172,6 +172,7 @@
   .cores-cards {
     grid-row-gap: 0.4rem;
     grid-column-gap: 0.4rem;
+    margin-top: 0;
   }
 
   .cores-card {
