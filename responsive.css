@@ -1,16 +1,16 @@
 /* SOME SMARTPHONES */
-@media screen and (min-width: 320px) and (max-width: 600px) and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 650px) and (orientation: portrait) {
   .logo {
     width: 65%;
   }
 
   .logo h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .menu-nav-mobile {
     width: 35%;
-    padding-left: 20%;
+    padding-left: 6.4rem;
   }
 
   .menu-nav-mobile i {
@@ -32,8 +32,6 @@
 
   .hero-conteudo {
     width: 100%;
-    padding-top: 50%;
-    padding-bottom: 20%;
   }
 
   .conteudo {
