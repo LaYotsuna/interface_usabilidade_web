@@ -575,7 +575,6 @@
   .navegacao {
     width: 90vw;
     height: 65vh;
-    padding-bottom: 12.8rem;
   }
 
   .navegacao-card.primeiro {
@@ -643,7 +642,6 @@
 
   .cores {
     height: 65vh;
-    margin-top: 30vh;
   }
 
   .cores-texto {

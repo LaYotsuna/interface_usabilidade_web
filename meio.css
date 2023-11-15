@@ -142,7 +142,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   grid-row-gap: 3.2rem;
   grid-column-gap: 3.2rem;
-  margin-bottom: 9.6rem;
+  padding-bottom: 9.6rem;
 }
 
 .navegacao-card.imagem {
@@ -219,7 +219,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4.8rem;
-  margin-top: 9.6rem;
 }
 
 .cores-cards {
