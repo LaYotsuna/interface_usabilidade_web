@@ -27,12 +27,22 @@
     display: block;
   }
 
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-conteudo {
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 20%;
+  }
+
   .conteudo {
     width: 75%;
   }
 
   .conteudo h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .conteudo p {
@@ -42,6 +52,10 @@
   .conteudo button {
     font-size: 1.4rem;
     padding: 1.2rem 1.6rem;
+  }
+
+  .hero-img {
+    width: 100%;
   }
 
   .lista-integrantes {
