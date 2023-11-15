@@ -70,41 +70,36 @@
     font-weight: 400;
   }
 
-  .main {
-    height: 250vh;
-  }
-
   .interface {
-    height: 125vh;
+    height: 75vh;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 3.2rem;
   }
 
   .interface-img,
   .usabilidade-img,
   .responsividade-img {
-    height: 50%;
+    height: 40%;
     width: 85%;
-    margin-bottom: -90%;
   }
 
   .interface-texto,
   .usabilidade-texto,
   .responsividade-texto {
+    height: 40%;
     width: 85%;
-    margin-bottom: -70%;
   }
 
   .interface-texto h3,
   .usabilidade-texto h3,
   .responsividade-texto h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .interface-texto p,
   .usabilidade-texto p,
   .responsividade-texto p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .setas-mobile {
@@ -113,13 +108,12 @@
     justify-content: center;
     align-items: center;
     gap: 6.4rem;
-    margin-left: -4%;
-    margin-top: -15%;
+    margin: auto;
   }
 
   .slider {
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 1.2rem;
+    margin-bottom: 3.2rem;
   }
 
   .slide {
@@ -132,10 +126,10 @@
   }
 
   .navegacao {
-    width: 85%;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
+    gap: 2.4rem;
   }
 
   .navegacao-card.imagem,
@@ -144,7 +138,7 @@
   }
   .navegacao-card.titulo h3,
   .navegacao-card.segundo h3 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .navegacao-card.titulo p,
@@ -153,20 +147,18 @@
   }
 
   .cores {
-    height: 70vh;
-    margin-top: 80%;
-    margin-bottom: 20%;
+    height: 75vh;
     flex-direction: column;
   }
 
   .cores-cards,
   .cores-texto {
-    width: 80%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
   }
 
   .cores-texto {
-    gap: 1.6rem;
+    gap: 1.4rem;
   }
 
   .cores-texto h3 {
@@ -179,12 +171,12 @@
 
   .cores-cards {
     grid-row-gap: 0.4rem;
-    grid-column-gap: 0.2rem;
+    grid-column-gap: 0.4rem;
   }
 
   .cores-card {
-    width: 70%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
   }
 
   .cor_1.descricao,
