@@ -56,6 +56,7 @@
 .icone.proximo {
   width: 5%;
   height: 5%;
+  cursor: pointer;
 }
 
 .icone.anterior .gg-arrow-left-r {
@@ -90,6 +91,7 @@
   height: 1.2rem;
   background-color: #4dabf7;
   border-radius: 9.6rem;
+  cursor: pointer;
 }
 
 .slide.ativado {
