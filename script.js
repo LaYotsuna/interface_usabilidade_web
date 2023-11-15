@@ -27,10 +27,26 @@ const slides = {
   ],
 };
 
+const setaAnterior = document.querySelector(".icone.anterior");
+const setaProximo = document.querySelector(".icone.proximo");
+const setas = [setaAnterior, setaProximo];
+
+function selecionarSeta() {
+  setas.forEach((seta) => {
+    seta.addEventListener("click", () => {
+      if (seta === setas[0]) {
+        alert("Você pressionou a seta anterior");
+      } else {
+        alert("Você pressionou a seta próxima");
+      }
+    });
+  });
+}
+
 const sliders = document.querySelectorAll(".slide");
 
 function sliderDots() {
-  sliders.forEach((slide, i) => {
+  sliders.forEach((slide) => {
     slide.addEventListener("click", () => {
       if (slide === sliders[0]) {
         alert("Você pressionou o slider 1");
@@ -43,4 +59,5 @@ function sliderDots() {
   });
 }
 
+selecionarSeta();
 sliderDots();
