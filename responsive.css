@@ -620,7 +620,7 @@
 }
 
 /* SOME LAPTOPS */
-@media screen and (min-width: 1200px) and (max-width: 1300px) {
+@media screen and (min-width: 1300px) and (max-width: 1300px) {
   .menu-nav {
     padding-left: 6.4rem;
   }
