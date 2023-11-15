@@ -618,27 +618,30 @@
 }
 
 /* SOME LAPTOPS */
-@media screen and (min-width: 1196px) and (max-width: 1280px) {
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
   .menu-nav {
-    padding-left: 17.5%;
+    padding-left: 6.4rem;
   }
 
   .main {
-    height: 275vh;
+    height: 230vh;
   }
 
   .interface {
-    height: 30%;
+    width: 100vw;
+    height: 75vh;
+    margin-left: 3.2rem;
+    margin-bottom: -1.2rem;
   }
 
   .navegacao {
     width: 90%;
-    height: 25%;
+    height: 65vh;
   }
 
   .cores {
-    height: 30%;
-    margin-top: 17.5%;
+    height: 65vh;
+    margin-top: 30vh;
   }
 
   .cores-texto {
@@ -646,17 +649,16 @@
   }
 
   .cores-cards {
-    height: 50%;
-    grid-row-gap: 0.2rem;
-    grid-column-gap: 0.2rem;
+    height: 75%;
+    margin-top: 6.4rem;
   }
 
   .cores-card {
     width: 70%;
-    height: 70%;
+    height: 80%;
   }
 
   .footer {
-    height: 5%;
+    height: 10vh;
   }
 }
