@@ -58,7 +58,7 @@
   }
 
   .integrantes {
-    margin-top: 0.8rem;
+    margin-top: 2.4rem;
   }
 
   .lista-integrantes {
@@ -74,6 +74,7 @@
     height: 75vh;
     flex-direction: column;
     gap: 4.8rem;
+    margin-top: 2.4rem;
   }
 
   .interface-img,
@@ -198,6 +199,8 @@
 
   .footer {
     height: 5vh;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
   }
 }
 
