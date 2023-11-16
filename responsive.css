@@ -150,6 +150,7 @@
     height: 75vh;
     flex-direction: column;
     gap: 2.4rem;
+    margin-top: 0;
   }
 
   .cores-cards,
