@@ -692,7 +692,7 @@
   }
 }
 
-@media screen and (min-width: 951px) and (max-width: 1280px) and (orientation: landscape) {
+@media screen and (min-width: 951px) and (max-width: 1350px) and (orientation: landscape) {
   .menu-nav {
     padding-left: 3.2rem;
   }
