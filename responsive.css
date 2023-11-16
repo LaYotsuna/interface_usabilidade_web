@@ -1,5 +1,5 @@
 /* SOME SMARTPHONES */
-@media screen and (min-width: 320px) and (max-width: 650px) and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 749px) and (orientation: portrait) {
   .logo {
     width: 70%;
   }
@@ -73,7 +73,7 @@
   .interface {
     height: 75vh;
     flex-direction: column;
-    gap: 3.2rem;
+    gap: 4.8rem;
   }
 
   .interface-img,
@@ -149,6 +149,7 @@
   .cores {
     height: 75vh;
     flex-direction: column;
+    gap: 2.4rem;
   }
 
   .cores-cards,
@@ -247,7 +248,7 @@
   .integrantes {
     height: fit-content;
     margin-top: 12.8rem;
-    margin-bottom: 3.2rem;
+    margin-bottom: 9.6rem;
   }
 
   .lista-integrantes {
@@ -260,15 +261,16 @@
   }
 
   .main {
-    height: 230vh;
+    height: 235vh;
+    gap: 0.4rem;
   }
 
   .interface {
     height: 75vh;
-    width: 85vw;
+    width: 90vw;
     gap: 2.4rem;
     margin: 0 auto;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
   }
 
   .slide {
@@ -326,6 +328,7 @@
   .cores {
     height: 75vh;
     margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
   }
 
   .cores-texto {
@@ -367,11 +370,13 @@
 
   .footer {
     height: 10vh;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
   }
 }
 
 /* SOME TABLETS */
-@media screen and (min-width: 700px) and (max-width: 1150px) and (orientation: portrait) {
+@media screen and (min-width: 750px) and (max-width: 1000px) and (orientation: portrait) {
   .logo {
     width: 50%;
   }
@@ -413,28 +418,29 @@
   }
 
   .main {
-    height: 200vh;
+    height: 175vh;
+    gap: 1.2rem;
   }
 
   .interface {
-    height: 65vh;
-    width: 85vw;
+    height: 60vh;
+    width: 90vw;
     gap: 3.2rem;
     margin: 0 auto;
-    margin-top: -6.4rem;
+    margin-top: -12.8rem;
   }
 
   .interface-img,
   .usabilidade-img,
   .responsividade-img {
-    width: 50%;
-    height: 70%;
+    width: 40%;
+    height: 60%;
   }
 
   .interface-texto,
   .usabilidade-texto,
   .responsividade-texto {
-    width: 50%;
+    width: 60%;
   }
 
   .interface-texto h3,
@@ -450,12 +456,15 @@
   }
 
   .slider {
-    margin-top: -6.4rem;
+    margin-top: -4.8rem;
+    margin-bottom: 6.4rem;
   }
 
   .navegacao {
     width: 90vw;
-    height: 65vh;
+    height: 60vh;
+    margin-top: 0;
+    margin-bottom: 9.6rem;
   }
 
   .navegacao-card.primeiro {
@@ -477,9 +486,9 @@
   }
 
   .cores {
-    height: 65vh;
+    height: 47.5vh;
     width: 100vw;
-    margin-top: -9.6rem;
+    margin-bottom: 9.6rem;
   }
 
   .cores-texto {
@@ -498,8 +507,9 @@
 
   .cores-cards {
     width: 40%;
-    height: 50%;
+    height: 85%;
     align-items: center;
+    margin-top: 2.4rem;
   }
 
   .cores-card {
@@ -520,12 +530,169 @@
   }
 
   .footer {
-    margin-top: -9.6rem;
-    height: 5vh;
+    height: 10vh;
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
+@media screen and (min-width: 1001px) and (max-width: 1250px) and (orientation: portrait) {
+  .logo {
+    width: 50%;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+  }
+
+  .menu-nav a {
+    font-size: 1.8rem;
+  }
+
+  .menu-nav {
+    width: 50%;
+    padding-left: 0;
+  }
+
+  .conteudo {
+    width: 75%;
+  }
+
+  .conteudo h2 {
+    font-size: 3rem;
+  }
+
+  .conteudo p {
+    font-size: 2rem;
+  }
+
+  .conteudo button {
+    font-size: 1.8rem;
+    padding: 1.2rem 1.6rem;
+  }
+
+  .lista-integrantes {
+    height: fit-content;
+    font-size: 1.8rem;
+    margin-top: 3.2rem;
+  }
+
+  .main {
+    height: 175vh;
+    gap: 1.2rem;
+  }
+
+  .interface {
+    height: 60vh;
+    width: 90vw;
+    gap: 3.2rem;
+    margin: 0 auto;
+    margin-top: -12.8rem;
+  }
+
+  .interface-img,
+  .usabilidade-img,
+  .responsividade-img {
+    width: 40%;
+    height: 60%;
+  }
+
+  .interface-texto,
+  .usabilidade-texto,
+  .responsividade-texto {
+    width: 60%;
+  }
+
+  .interface-texto h3,
+  .usabilidade-texto h3,
+  .responsividade-texto h3 {
+    font-size: 2.4rem;
+  }
+
+  .interface-texto p,
+  .usabilidade-texto p,
+  .responsividade-texto p {
+    font-size: 1.6rem;
+  }
+
+  .slider {
+    margin-top: -12.8rem;
+    margin-bottom: 8rem;
+  }
+
+  .navegacao {
+    width: 90vw;
+    height: 60vh;
+    margin-top: 0;
+    margin-bottom: 4.8rem;
+  }
+
+  .navegacao-card.primeiro {
+    display: none;
+  }
+
+  .navegacao-card.segundo {
+    grid-column: 3 / 5;
+  }
+
+  .navegacao-card.titulo h3,
+  .navegacao-card.segundo h3 {
+    font-size: 2.4rem;
+  }
+
+  .navegacao-card.titulo p,
+  .navegacao-card.segundo p {
+    font-size: 1.6rem;
+  }
+
+  .cores {
+    height: 47.5vh;
+    width: 100vw;
+    margin-bottom: 9.6rem;
+  }
+
+  .cores-texto {
+    width: 40%;
+    height: 100%;
+    gap: 1.6rem;
+  }
+
+  .cores-texto h3 {
+    font-size: 2.4rem;
+  }
+
+  .cores-texto p {
+    font-size: 1.6rem;
+  }
+
+  .cores-cards {
+    width: 40%;
+    height: 85%;
+    align-items: center;
+    margin-top: 2.4rem;
+  }
+
+  .cores-card {
+    width: 80%;
+    height: 60%;
+  }
+
+  .cor_1.descricao,
+  .cor_2.descricao,
+  .cor_3.descricao,
+  .cor_4.descricao,
+  .cor_5.descricao,
+  .cor_6.descricao,
+  .cor_7.descricao,
+  .cor_8.descricao,
+  .cor_9.descricao {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    height: 10vh;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1280px) and (orientation: landscape) {
   .menu-nav {
     padding-left: 3.2rem;
   }
@@ -539,11 +706,15 @@
   }
 
   .conteudo h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .conteudo p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  .conteudo button {
+    font-size: 1.6rem;
   }
 
   .integrantes {
@@ -557,7 +728,22 @@
   .interface {
     width: 95vw;
     height: 65vh;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 9.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .interface-img,
+  .usabilidade-img,
+  .responsividade-img {
+    width: 40%;
+    height: 100%;
+  }
+
+  .interface-texto,
+  .usabilidade-texto,
+  .responsividade-texto {
+    width: 40%;
   }
 
   .interface-texto h3,
@@ -575,6 +761,8 @@
   .navegacao {
     width: 90vw;
     height: 65vh;
+    margin-top: -3.2rem;
+    margin-bottom: 6.4rem;
   }
 
   .navegacao-card.primeiro {
@@ -587,6 +775,9 @@
 
   .cores {
     height: 65vh;
+    margin-top: 3.2rem;
+    margin-bottom: 6.4rem;
+    margin-left: 4.8rem;
   }
 
   .cores-texto {
@@ -603,9 +794,10 @@
   }
 
   .cores-cards {
-    height: 60%;
-    grid-row-gap: 1.2rem;
+    height: 100%;
+    grid-row-gap: 2.4rem;
     grid-column-gap: 1.2rem;
+    margin-bottom: 2.4rem;
   }
 
   .cores-card {
@@ -615,50 +807,7 @@
 
   .footer {
     height: 5vh;
-  }
-}
-
-/* SOME LAPTOPS */
-@media screen and (min-width: 1300px) and (max-width: 1300px) {
-  .menu-nav {
-    padding-left: 6.4rem;
-  }
-
-  .main {
-    height: 230vh;
-  }
-
-  .interface {
-    width: 100vw;
-    height: 75vh;
-    margin-left: 3.2rem;
-    margin-bottom: -1.2rem;
-  }
-
-  .navegacao {
-    width: 90%;
-    height: 65vh;
-  }
-
-  .cores {
-    height: 65vh;
-  }
-
-  .cores-texto {
-    gap: 1.6rem;
-  }
-
-  .cores-cards {
-    height: 75%;
-    margin-top: 6.4rem;
-  }
-
-  .cores-card {
-    width: 70%;
-    height: 80%;
-  }
-
-  .footer {
-    height: 10vh;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
   }
 }
