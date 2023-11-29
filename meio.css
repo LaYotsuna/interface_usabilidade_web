@@ -308,7 +308,7 @@ body {
 .cor_4.cor {
   width: 100%;
   height: 100%;
-  background-color: #51cf66;
+  background-color: hsl(130, 57%, 56%);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -316,7 +316,7 @@ body {
 .cor_5.cor {
   width: 100%;
   height: 100%;
-  background-color: #37b24d;
+  background-color: hsl(131, 53%, 46%);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -324,7 +324,7 @@ body {
 .cor_6.cor {
   width: 100%;
   height: 100%;
-  background-color: #2b8a3e;
+  background-color: hsl(132, 52%, 35%);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -332,7 +332,7 @@ body {
 .cor_7.cor {
   width: 100%;
   height: 100%;
-  background-color: #339af0;
+  background-color: rgb(51, 154, 240);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -340,7 +340,7 @@ body {
 .cor_8.cor {
   width: 100%;
   height: 100%;
-  background-color: #1c7ed6;
+  background-color: rgb(28, 126, 214);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
@@ -348,7 +348,7 @@ body {
 .cor_9.cor {
   width: 100%;
   height: 100%;
-  background-color: #1864ab;
+  background-color: rgb(24, 100, 171);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
