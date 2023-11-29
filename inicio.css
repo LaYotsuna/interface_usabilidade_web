@@ -164,9 +164,8 @@ body {
   font-weight: 600;
   background-color: #5f3dc4;
   border: none;
-  padding: 1.6rem 2.4rem;
+  padding: 1.6rem 2rem;
   border-radius: 1.2rem;
-  align-self: start;
   box-shadow: 0px 7.5px 10px -3px rgb(103, 65, 217, 0.5);
   display: flex;
   justify-content: center;
@@ -179,6 +178,12 @@ body {
   scale: 0.95;
   box-shadow: 0px 5px 7.5px -1.5px rgb(103, 65, 217, 0.5);
   transition: all 0.1s;
+}
+
+.btns {
+  align-self: start;
+  display: flex;
+  gap: 2.4rem;
 }
 
 .hero-img {
