@@ -11,6 +11,11 @@ document.getElementById("exploreButton").addEventListener("click", function () {
   document.getElementById("interface").scrollIntoView();
 });
 
+/* Linkar o botão de saiba mais */
+document.getElementById("linkButton").addEventListener("click", function () {
+  window.open("https://explicativo.netlify.app/#interface", "_blank");
+});
+
 /* Numeração do slide */
 let slideCounter = 0;
 
